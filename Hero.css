@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.logo img {
+  width: 60px;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links ul {
+  display: flex;
+}
+.nav-links ul li {
+  margin-left: 20px;
+  text-decoration-line: none;
+  list-style: none;
+  color: gray;
+}
+
+.button {
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  margin-left: 20px;
+
+  background: #1893f7;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#hero {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 10%;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-line {
+  font-size: 30px;
+}
+
+.second-line {
+  font-size: 53px;
+  font-weight: 500;
+  color: #1893f7;
+}
+
+.third-line {
+  color: #1893f7;
+  margin-top: 10px;
+}
+
+.brands img {
+  margin-top: 20px;
+  height: 90px;
+}
+
+.paragraph {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.apply-button {
+  margin-top: 20px;
+  background: #1893f7;
+  color: white;
+  width: 120px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.right-side video {
+  height: 500px;
+  margin-left: 100px;
+}
+
+.dark-fee {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  background: #000;
+  height: 400px;
+  width: 100%;
+  color: white;
+}
+
+.dark-h1 {
+  color: #1893f7;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.dark-h2-1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 40px;
+}
+.dark-h2-2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.dark-h2-3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body {
+    margin-left: 5px;
+    max-width: 768px;
+  }
+  .nav-links ul {
+    display: none;
+  }
+  .button {
+    margin-left: 100px;
+  }
+  #hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .brands img {
+    height: 70px;
+  }
+  .right-side video {
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .dark-fee {
+    background: white;
+  }
+  .dark-h1 {
+    font-size: 30px;
+  }
+  .dark-h2-1 {
+    color: #000;
+    font-size: 23px;
+  }
+  .dark-h2-2 {
+    color: #000;
+    font-size: 23px;
+  }
+
+  .dark-h2-3 {
+    color: #000;
+    font-size: 23px;
+  }
+}
